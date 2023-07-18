@@ -37,6 +37,7 @@ for posicao, numero in enumerate (numeros):
     webbrowser.open(f'https://api.whatsapp.com/send?phone={numero}')
     pausar()
 
+    # Depende da resolução da sua tela.
     pg.click(673,352, duration=1.5)
     pausar()
     for i in range(2):
@@ -63,6 +64,6 @@ for posicao, numero in enumerate (numeros):
 
 pg.hotkey('alt', 'f4')
 
-        
+Aviso('O programa foi encerrado com sucesso!')       
 
         
